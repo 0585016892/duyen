@@ -52,7 +52,7 @@ document.getElementById('draw-btn').addEventListener('click', function() {
         moneyDiv.style.width = '65%';  // Di chuyển tờ tiền lên
         moneyDiv.style.height = '26%';  // Di chuyển tờ tiền lên
         // Hiển thị kết quả bên dưới
-        resultDiv.textContent = `Vinh lì xì  ${randomAmount.toLocaleString()} VND nhe !!!`;
+        resultDiv.textContent = `Mai Duyên lì xì  ${randomAmount.toLocaleString()} VND nhe !!!`;
 
         // Thêm hiệu ứng để tờ tiền mới đi lên
         moneyDiv.classList.remove('down');
